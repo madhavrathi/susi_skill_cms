@@ -44,6 +44,10 @@ let TopRightMenuItems = (props) => (
         onTouchTap={this.handleClose}
         containerElement={<Link to="/settings" />}
         rightIcon={<Settings/>}/>
+      <MenuItem primaryText="Skill Editor"
+        onTouchTap={this.handleClose}
+        containerElement={<Link to="/skillEditor" />}
+        rightIcon={<Icon type="code" />} />
     </div>
 )
 
