@@ -272,11 +272,18 @@ export default class BrowseSkill extends React.Component {
                         </FloatingActionButton>
                         <Link to="/skillEditor">
                             <FloatingActionButton
+<<<<<<< e2ccaf4a31e1819126f4329b89a9aed4a4c915cd
                                 backgroundColor={colors.fabButton} className='select'>
                                 <Add />
                             </FloatingActionButton>
                         </Link>
                         </div>
+=======
+                                backgroundColor={colors.fabButton} style={{marginLeft: 25}}>
+                                <Add />
+                            </FloatingActionButton>
+                        </Link>
+>>>>>>> Fixes #157 Added + button in top bar of overview page
                     </div>
 
                 </Paper>
