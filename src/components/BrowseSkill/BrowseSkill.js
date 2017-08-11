@@ -391,6 +391,7 @@ const styles = {
     },
     row: {
         width: 280,
+        height: 250,
         minHeight:'200px',
         margin:"10px",
         overflow:'hidden',
